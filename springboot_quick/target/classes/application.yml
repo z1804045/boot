@@ -2,7 +2,7 @@
 name: zhangsan
 
 #对象的配置
-person1:
+person:
   name: zhangsan
   age: 18
   addr: beijing

@@ -11,7 +11,7 @@ public class Quick2Controller {
     @Value("${name}")
     private String name;
 
-    @Value("${person1.addr}")
+    @Value("${person.addr}")
     private String addr;
 
     @RequestMapping("/quick2")
