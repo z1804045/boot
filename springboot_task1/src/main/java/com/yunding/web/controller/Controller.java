@@ -1,4 +1,4 @@
-package com.yunding.controller;
+package com.yunding.web.controller;
 
 import com.yunding.domain.User;
 import com.yunding.mapper.UserMapper;
@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
-import java.util.Map;
 
 @org.springframework.stereotype.Controller
 public class Controller {
@@ -61,7 +60,6 @@ public class Controller {
     }
     @RequestMapping("/index")
     public String index(){
-        System.out.println("");
         return "index";
     }
 
